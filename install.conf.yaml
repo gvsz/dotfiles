@@ -7,8 +7,9 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [sudo cp zz-nvidia-modeset.conf /etc/modprobe.d/, Enabling nvidia modeset]
+  - [sudo cp src/zz-nvidia-modeset.conf /etc/modprobe.d/, Enabling nvidia modeset]
 
 - link:
-    ~/.zshrc: zshrc
+    ~/.zshrc: src/zshrc
+    ~/.config/nvim/init.vim: src/init.vim
 
