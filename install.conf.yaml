@@ -12,4 +12,5 @@
 - link:
     ~/.zshrc: src/zshrc
     ~/.config/nvim/init.vim: src/init.vim
+    ~/.tmux.conf: src/tmux.conf
 
