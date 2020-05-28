@@ -11,6 +11,7 @@
 
 - link:
     ~/.zshrc: src/zshrc
+    ~/.config/gtk-3.0/gtk.css: src/gtk.css
     ~/.config/nvim/init.vim: src/init.vim
     ~/.tmux.conf: src/tmux.conf
 
